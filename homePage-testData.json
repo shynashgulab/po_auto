@@ -1,0 +1,65 @@
+{
+    "projectTitle":"Dashboard",
+    "pageTitle":"Powered by Polaris",
+    "delivery Metrics":"Delivery Metrics",
+    "del Metrics Panels Count":7,
+    "LeadTime":{
+            "customPanel": {
+            "title":"Lead Time",
+            "iframeIndex":0
+            },
+           "chartPanel":{
+                "iframeIndex":1,
+                "yaxis":"Days"
+            }
+        },
+        "DeploymentFrequency":{
+            "customPanel": {
+                "title":"Deployment Frequency",
+                "iframeIndex":2
+            },
+                    
+            "chartPanel": {
+                "iframeIndex":3,
+                "yaxis":"No of Successful Builds"
+            }
+                
+        },
+        "BuildFailureRate":{
+            "customPanel": {
+                "title":"Build Failure Rate",
+                "iframeIndex":4
+            },
+                    
+            "chartPanel": {
+                "iframeIndex":5,
+                "yaxis":"Build Failure Rate(%)"
+            }
+                
+        },
+         "TechnicalDebt":{
+            "customPanel": {
+                "title":"Technical Debt",
+                "iframeIndex":6
+            },
+                    
+            "chartPanel": {
+                "iframeIndex":7,
+                "yaxis":"Technical Debt (in hours)"
+            }
+                
+        },
+        "SecurityWarnings":{
+            "customPanel": {
+                "title":"Security Warnings",
+                "iframeIndex":8
+            },
+                    
+            "chartPanel": {
+                "iframeIndex":9,
+                "yaxis":"Security Warnings"
+            }
+                
+        }
+}
+
